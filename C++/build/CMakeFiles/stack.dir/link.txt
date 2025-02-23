@@ -1,0 +1,1 @@
+/usr/bin/c++  -fprofile-arcs -ftest-coverage -O0 -g  -fprofile-arcs -ftest-coverage CMakeFiles/stack.dir/src/stack.cpp.o -o stack

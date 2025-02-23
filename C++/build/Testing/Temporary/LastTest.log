@@ -1,0 +1,181 @@
+Start testing: Feb 23 07:38 EST
+----------------------------------------------------------
+1/1 Testing: RunTests
+1/1 Test: RunTests
+Command: "/home/kali/Desktop/laba3-3/C++/build/tests"
+Directory: /home/kali/Desktop/laba3-3/C++/build
+"RunTests" start time: Feb 23 07:38 EST
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 46 tests from 6 test suites.
+[----------] Global test environment set-up.
+[----------] 9 tests from ArrayTest
+[ RUN      ] ArrayTest.ConstructorAndSize
+0.000001653 seconds
+[       OK ] ArrayTest.ConstructorAndSize (0 ms)
+[ RUN      ] ArrayTest.Push
+0.000004015 seconds
+[       OK ] ArrayTest.Push (0 ms)
+[ RUN      ] ArrayTest.Remove
+0.000001220 seconds
+[       OK ] ArrayTest.Remove (0 ms)
+[ RUN      ] ArrayTest.PushResizesArray
+0.000004172 seconds
+[       OK ] ArrayTest.PushResizesArray (0 ms)
+[ RUN      ] ArrayTest.IndexingOperator
+0.000000748 seconds
+[       OK ] ArrayTest.IndexingOperator (0 ms)
+[ RUN      ] ArrayTest.IndexOutOfBounds
+0.000030106 seconds
+[       OK ] ArrayTest.IndexOutOfBounds (0 ms)
+[ RUN      ] ArrayTest.DestructorClearsArray
+0.000000364 seconds
+[       OK ] ArrayTest.DestructorClearsArray (0 ms)
+[ RUN      ] ArrayTest.FindElement
+0.000000905 seconds
+[       OK ] ArrayTest.FindElement (0 ms)
+[ RUN      ] ArrayTest.SetElement
+0.000000395 seconds
+[       OK ] ArrayTest.SetElement (0 ms)
+[----------] 9 tests from ArrayTest (0 ms total)
+
+[----------] 12 tests from HashTableTest
+[ RUN      ] HashTableTest.ConstructorDestructor
+0.000004450 seconds
+[       OK ] HashTableTest.ConstructorDestructor (0 ms)
+[ RUN      ] HashTableTest.KeyExists
+0.000013099 seconds
+[       OK ] HashTableTest.KeyExists (0 ms)
+[ RUN      ] HashTableTest.NoSuchKey
+0.000003255 seconds
+[       OK ] HashTableTest.NoSuchKey (0 ms)
+[ RUN      ] HashTableTest.NoSuchKeyRemove
+0.000002887 seconds
+[       OK ] HashTableTest.NoSuchKeyRemove (0 ms)
+[ RUN      ] HashTableTest.InsertAndRetrieve
+0.000003145 seconds
+[       OK ] HashTableTest.InsertAndRetrieve (0 ms)
+[ RUN      ] HashTableTest.OverwriteValue
+0.000002242 seconds
+[       OK ] HashTableTest.OverwriteValue (0 ms)
+[ RUN      ] HashTableTest.HandleCollisions
+0.000001281 seconds
+[       OK ] HashTableTest.HandleCollisions (0 ms)
+[ RUN      ] HashTableTest.DestructorHandlesMemory
+0.000001911 seconds
+[       OK ] HashTableTest.DestructorHandlesMemory (0 ms)
+[ RUN      ] HashTableTest.LargeData
+0.016446714 seconds
+[       OK ] HashTableTest.LargeData (16 ms)
+[ RUN      ] HashTableTest.EmptyValue
+0.000002038 seconds
+[       OK ] HashTableTest.EmptyValue (0 ms)
+[ RUN      ] HashTableTest.ReuseKey
+0.000001702 seconds
+[       OK ] HashTableTest.ReuseKey (0 ms)
+[ RUN      ] HashTableTest.RemoveKey
+0.000014544 seconds
+[       OK ] HashTableTest.RemoveKey (0 ms)
+[----------] 12 tests from HashTableTest (16 ms total)
+
+[----------] 10 tests from ListTest
+[ RUN      ] ListTest.AddTail
+0.000008743 seconds
+[       OK ] ListTest.AddTail (0 ms)
+[ RUN      ] ListTest.AddHead
+0.000001508 seconds
+[       OK ] ListTest.AddHead (0 ms)
+[ RUN      ] ListTest.RemoveTail
+0.000000806 seconds
+[       OK ] ListTest.RemoveTail (0 ms)
+[ RUN      ] ListTest.RemoveHead
+0.000000591 seconds
+[       OK ] ListTest.RemoveHead (0 ms)
+[ RUN      ] ListTest.RemoveByValue
+0.000000755 seconds
+[       OK ] ListTest.RemoveByValue (0 ms)
+[ RUN      ] ListTest.Search
+0.000000925 seconds
+[       OK ] ListTest.Search (0 ms)
+[ RUN      ] ListTest.InsertAtIndex
+0.000000752 seconds
+[       OK ] ListTest.InsertAtIndex (0 ms)
+[ RUN      ] ListTest.OutOfBoundsAccess
+0.000004287 seconds
+[       OK ] ListTest.OutOfBoundsAccess (0 ms)
+[ RUN      ] ListTest.RemoveNonExistentElement
+0.000002044 seconds
+[       OK ] ListTest.RemoveNonExistentElement (0 ms)
+[ RUN      ] ListTest.LargeData
+0.001246256 seconds
+[       OK ] ListTest.LargeData (1 ms)
+[----------] 10 tests from ListTest (1 ms total)
+
+[----------] 6 tests from QueueTest
+[ RUN      ] QueueTest.PushAndFront
+0.000002317 seconds
+[       OK ] QueueTest.PushAndFront (0 ms)
+[ RUN      ] QueueTest.Pop
+0.000000718 seconds
+[       OK ] QueueTest.Pop (0 ms)
+[ RUN      ] QueueTest.PopFromEmptyQueue
+0.000026663 seconds
+[       OK ] QueueTest.PopFromEmptyQueue (0 ms)
+[ RUN      ] QueueTest.MultiplePushAndPop
+0.000001494 seconds
+[       OK ] QueueTest.MultiplePushAndPop (0 ms)
+[ RUN      ] QueueTest.QueueWithOneElement
+0.000000444 seconds
+[       OK ] QueueTest.QueueWithOneElement (0 ms)
+[ RUN      ] QueueTest.QueueLength
+0.000011778 seconds
+[       OK ] QueueTest.QueueLength (0 ms)
+[----------] 6 tests from QueueTest (0 ms total)
+
+[----------] 6 tests from StackTest
+[ RUN      ] StackTest.PushAndPop
+0.000001004 seconds
+[       OK ] StackTest.PushAndPop (0 ms)
+[ RUN      ] StackTest.PopFromEmptyStack
+0.000002270 seconds
+[       OK ] StackTest.PopFromEmptyStack (0 ms)
+[ RUN      ] StackTest.MultiplePushAndPop
+0.000001025 seconds
+[       OK ] StackTest.MultiplePushAndPop (0 ms)
+[ RUN      ] StackTest.StackLength
+0.000000866 seconds
+[       OK ] StackTest.StackLength (0 ms)
+[ RUN      ] StackTest.ClearStack
+0.000002273 seconds
+[       OK ] StackTest.ClearStack (0 ms)
+[ RUN      ] StackTest.LargeData
+0.000161022 seconds
+[       OK ] StackTest.LargeData (0 ms)
+[----------] 6 tests from StackTest (0 ms total)
+
+[----------] 3 tests from FullTreeTest
+[ RUN      ] FullTreeTest.InsertAndFind
+0.000001760 seconds
+[       OK ] FullTreeTest.InsertAndFind (0 ms)
+[ RUN      ] FullTreeTest.CheckFullTree
+0.000000579 seconds
+[       OK ] FullTreeTest.CheckFullTree (0 ms)
+[ RUN      ] FullTreeTest.BalanceAfterInsertions
+0.000001083 seconds
+[       OK ] FullTreeTest.BalanceAfterInsertions (0 ms)
+[----------] 3 tests from FullTreeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 46 tests from 6 test suites ran. (18 ms total)
+[  PASSED  ] 46 tests.
+libgcov profiling error:/home/kali/Desktop/laba3-3/C++/build/CMakeFiles/tests.dir/tests/test_hashtable.cpp.gcda:overwriting an existing profile data with a different checksum
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"RunTests" end time: Feb 23 07:38 EST
+"RunTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 23 07:38 EST

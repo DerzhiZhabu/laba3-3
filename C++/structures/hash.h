@@ -36,7 +36,6 @@ struct HashTable{
     }
 
     void Resize(){
-        cout << "resize" << endl;
         size *= 2;
         NodeH<T>* oldArr = arr;
 

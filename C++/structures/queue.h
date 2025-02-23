@@ -56,6 +56,10 @@ class Queue{
         return value;
     }
 
+    ~Queue<T>(){
+        clear();
+    }
+
     void clear(){
         while (length != 0){
             pop();

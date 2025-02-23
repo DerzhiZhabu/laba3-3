@@ -105,6 +105,10 @@ class Array{
         delete[] head;
     }
 
+    int len(){
+        return length;
+    }
+
     void print(){
         for (int i = 0; i < length; i++){
             if (head[i].state) cout << head[i].value << ' ';

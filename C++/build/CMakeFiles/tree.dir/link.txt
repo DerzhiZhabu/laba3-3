@@ -1,0 +1,1 @@
+/usr/bin/c++  -fprofile-arcs -ftest-coverage -O0 -g  -fprofile-arcs -ftest-coverage CMakeFiles/tree.dir/src/tree.cpp.o -o tree

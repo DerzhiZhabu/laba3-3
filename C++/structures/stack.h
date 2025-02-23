@@ -51,6 +51,10 @@ class Stack{
         return length;
     }
 
+    ~Stack<T>() {
+        clear(); // Очищаем стек перед уничтожением
+    }
+
     void clear(){
         while (length != 0){
             pop();

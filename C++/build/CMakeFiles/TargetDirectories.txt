@@ -1,0 +1,12 @@
+/home/kali/Desktop/laba3-3/C++/build/CMakeFiles/arr.dir
+/home/kali/Desktop/laba3-3/C++/build/CMakeFiles/hash.dir
+/home/kali/Desktop/laba3-3/C++/build/CMakeFiles/list.dir
+/home/kali/Desktop/laba3-3/C++/build/CMakeFiles/queue.dir
+/home/kali/Desktop/laba3-3/C++/build/CMakeFiles/stack.dir
+/home/kali/Desktop/laba3-3/C++/build/CMakeFiles/tree.dir
+/home/kali/Desktop/laba3-3/C++/build/CMakeFiles/tests.dir
+/home/kali/Desktop/laba3-3/C++/build/CMakeFiles/clean_coverage.dir
+/home/kali/Desktop/laba3-3/C++/build/CMakeFiles/coverage.dir
+/home/kali/Desktop/laba3-3/C++/build/CMakeFiles/test.dir
+/home/kali/Desktop/laba3-3/C++/build/CMakeFiles/edit_cache.dir
+/home/kali/Desktop/laba3-3/C++/build/CMakeFiles/rebuild_cache.dir
